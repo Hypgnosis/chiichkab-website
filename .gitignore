@@ -1,0 +1,50 @@
+# Environment & Secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*serviceAccount*.json
+*credentials*.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Dependencies and Build Outputs
+node_modules
+dist
+dist-ssr
+*.local
+.firebase/
+
+# Editor & System Files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Scratch & Migration Scripts
+cleanup.*
+extract.*
+fix_app.*
+get_error.*
+index.cjs
+transform.*
